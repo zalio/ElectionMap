@@ -1,0 +1,98 @@
+/*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
+
+.svg-turkiye-haritasi {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.svg-turkiye-haritasi svg {
+    width: 100%;
+    height: auto;
+}
+.il-isimleri {
+    position: absolute;
+    z-index: 2;
+}
+.il-isimleri {
+    font-family: 'Open Sans';
+    display: inline-block;
+    color: #000;
+    padding: 8px 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.span{
+    width: 30px;
+    height: 5px;
+    background: blue;
+}
+#svg-turkiye-haritasi path {
+    cursor: pointer;
+}
+#svg-turkiye-haritasi path:hover {
+    fill: black;
+    transition: 0.1s;
+}
+#kuzey-kibris,#guney-kibris {
+    pointer-events: none;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    color:red;
+}
+
+.buttonContainer{
+    width: 100%;
+    text-align: center;
+}
+.changeColorButton{
+    background: white;
+    padding: 10px 20px;
+    margin: 35px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color : blue;
+}
+.changeColorButton:hover{
+    background: blue;
+    color:white;
+    transition: 0.2s;
+}
+/*CSS of Parties(includes colors)*/
+.akparti{fill: orange;}
+.chp{fill: red;}
+.mhp{
+    fill: deeppink;
+}
+.iyiparti{
+    fill: #61dafb;
+}
+.saadetpartisi{
+    fill: indianred;
+}
+.btp{
+    fill: indianred;
+}
+.tkp{
+    fill: burlywood;
+}
+.vatanpartisi{
+    fill: darkslategrey;
+}
+.dsp{
+    fill: dodgerblue;
+}
+.bagimsiz{
+    fill: gray;
+}
+.hdp{
+    fill: purple;
+}
+.bbp{
+    fill: ivory;
+}
+.dp{
+    fill: palegreen;
+}
