@@ -28,8 +28,8 @@ class Content extends Component {
                    <Country colors={this.state.colors}></Country>
                </div>
                <div className={"buttonContainer"}>
-                   <Button className={"changeColorButton"} variant={"outline-primary"} onClick={this.colorMap}>Renkli harita</Button>
-                   <Button className={"changeColorButton"} variant={"outline-secondary"} onClick={this.tempMap}>Isı haritasi</Button>
+                   <Button className={"changeColorButton"} onClick={this.colorMap}>Renkli harita</Button>
+                   <Button className={"changeColorButton"} onClick={this.tempMap}>Isı haritasi</Button>
                </div>
            </div>
         );

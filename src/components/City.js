@@ -18,8 +18,6 @@ const parties = [
 
 ];
 
-
-
 class City extends Component {
     constructor(props) {
         super(props);
@@ -32,10 +30,6 @@ class City extends Component {
         result : PropTypes.object,
         colors : PropTypes.bool
     };
-
-
-
-
 
     determineFirstByColor = () => {
         const votes = this.props.result.results;
@@ -54,6 +48,7 @@ class City extends Component {
         }
         return "bagimsiz";
     };
+
     firstThreeParties = () => {
         const votes = this.props.result.results;
         const votesList = [];
@@ -76,11 +71,13 @@ class City extends Component {
         }
         return result;
     };
+
     clicked = () => {
         var el = document.getElementById("il-isimleri");
         el.innerHTML = this.props.cityName +
         "<br> <br>" + this.firstThreeParties();
     };
+
     determineFirstByTemp = () => {
         const votes = this.props.result.results;
         const votesList = [];
@@ -104,9 +101,10 @@ class City extends Component {
                 data-iladi={this.props.cityName}
                 fillOpacity={styleParty}
                 className={classParty}
-                onClick={this.clicked}
-            >
+                onClick={this.clicked}>
+
                 <path d={this.props.path}></path>
+                
             </g>
 
         );

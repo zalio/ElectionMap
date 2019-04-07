@@ -1,9 +1,19 @@
 # Election Map
 
-### General Information About Project
+### About Project
 
-Election Map is a react project that shows results of Local Election in Turkey in 2019. It receives results of Election from a Json File and creates Turkey map that is also received from a Json File. In this project, 2 different types of map can be selected. One of these maps is colors based and another is temperature color based. In colors based map, each party has a unique color and in each city, color that is winner party's is shown. In temperature color based map, in each city, if difference between number of votes for city's winner party and second place party is smaller, then color that will be shown will be light black. If it is larger, then color that will be shown will be dark black.
+Election Map is a react project that shows results of Local Election in Turkey in 2019. 
 
+### How it works
+
+It receives results of Election from a Json File and creates Turkey map that is also received from a Json File. In this project, 2 different types of map can be selected. One of these maps is colors based and another is temperature color based.
+
+### Used technologies
+
+*HTML
+*CSS
+*Javascript
+*React
 
 ### `npm start`
 
@@ -24,4 +34,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 ![""](./sample_photos/photo1.png)
-![""](./sample_photos/photo.png)
+![""](./sample_photos/photo2.png)
