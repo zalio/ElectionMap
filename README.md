@@ -10,10 +10,10 @@ It receives results of Election from a Json File and creates Turkey map that is 
 
 ### Used technologies
 
-*HTML
-*CSS
-*Javascript
-*React
+* HTML
+* CSS
+* Javascript
+* React
 
 ### `npm start`
 
