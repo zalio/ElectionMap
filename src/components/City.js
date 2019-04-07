@@ -49,8 +49,6 @@ class City extends Component {
         }
         for(let k = 0; k<parties.length ; k++){
             if (id===parties[k][1]){
-                //console.log("girdi2");
-               // console.log(k);
                 return parties[k][0];
             }
         }
@@ -73,7 +71,7 @@ class City extends Component {
         firstThree.sort(function(a, b){return a-b});
         console.log(firstThree);
         for (let j = firstThree.length-1; j >= 0 ; j--){
-            result += firstThree[j].name + " <span></span>" + firstThree[j].voteCount;
+            result += firstThree[j].name + firstThree[j].voteCount;
             result += "<br>";
         }
         return result;
