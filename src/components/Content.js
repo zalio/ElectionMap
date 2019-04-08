@@ -29,7 +29,7 @@ class Content extends Component {
                </div>
                <div className={"buttonContainer"}>
                    <Button className={"changeColorButton"} onClick={this.colorMap}>Renkli harita</Button>
-                   <Button className={"changeColorButton"} onClick={this.tempMap}>Isı haritasi</Button>
+                   <Button className={"changeColorButton"} onClick={this.tempMap}>Isı haritası</Button>
                </div>
            </div>
         );
